@@ -1,0 +1,7 @@
+To Spin up graph node local:
+sudo docker system prune -a    (delete all docker containers)
+sudo docker-compose up 
+For local subgraph creation:
+npm run create-local && npm run deploy-local
+
+Note: comment the volumes part in postgres docker-compose.yml file
